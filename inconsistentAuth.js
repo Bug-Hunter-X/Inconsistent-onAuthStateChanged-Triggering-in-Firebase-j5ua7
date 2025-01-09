@@ -1,0 +1,1 @@
+The Firebase SDK's `onAuthStateChanged` listener may not always trigger when the authentication state changes, especially in cases of network instability or rapid state transitions.  This can lead to unexpected behavior where UI elements don't update correctly or data isn't loaded properly.
